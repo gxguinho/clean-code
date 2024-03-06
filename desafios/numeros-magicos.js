@@ -9,6 +9,8 @@
 
 function lookForUpdades() {}
 
-setInterval(lookForUpdades, 60 * 30 * 1000)
+const thirtyMinutes = 60 * 30 * 1000;
+
+setInterval(lookForUpdades, thirtyMinutes)
 
 function calculateDiscount(price, discount) {}
